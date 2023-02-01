@@ -1,9 +1,8 @@
 # M33TING.CLUB APP
 
 ### Description
-This app is designed to provide possibility to organize and participate in events. There are two use cases: a meeting/event organizer, who wants to do some activities with other people, and a person, who can explore the available meetings and join some, if they are interested in it.
+This app is designed to provide possibility to organize and participate in events. There are two use cases: a meeting/event organizer, who wants to do some activities with other people, and a person, who can explore the available meetings in the neighborhood and join some, if they are interested in it. 
 
-Application
 
 ![Meeting screen](https://github.com/muahahahh/m33ting-club-app-reloaded-mobile-app/blob/dev/meeting_screen.png?raw=true) 
 ![Explore screen](https://github.com/muahahahh/m33ting-club-app-reloaded-mobile-app/blob/dev/screen-carousel.png?raw=true)
