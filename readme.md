@@ -1,5 +1,13 @@
 # M33TING.CLUB APP
 
+### Description
+This app is designed to provide possibility to organize and participate in events. There are two use cases: a meeting/event organizer, who wants to do some activities with other people, and a person, who can explore the available meetings and join some, if they are interested in it.
+
+Application
+
+!(https://github.com/muahahahh/m33ting-club-app-reloaded-mobile-app/blob/dev/meeting_screen.png?raw=true) !(https://github.com/muahahahh/m33ting-club-app-reloaded-mobile-app/blob/dev/screen-carousel.png?raw=true)
+
+
 ### Legal Disclaimer
 
 This project does not have a license. Therefore, according to standard copyright laws, all rights are reserved.
@@ -19,6 +27,7 @@ This is relevant to the application's released version (as of 22.01.2023). Each 
 * The Coding Machine RN Boilerplate - [docs](https://github.com/thecodingmachine/react-native-boilerplate)
 * Firebase
 * Firebase RN - [docs](https://rnfirebase.io/)
+* RTK Query
 
 ### Running locally
 
