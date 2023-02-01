@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "345864979805",
+    "project_id": "m33ting-club-production",
+    "storage_bucket": "m33ting-club-production.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345864979805:android:2100f450d9b8b2bb1bd4b4",
+        "android_client_info": {
+          "package_name": "com.m33ting_club_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345864979805-c788fl8lffc9lkegr9616g21big0onrb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.m33ting_club_app",
+            "certificate_hash": "8e4b8c1a99a796664fc2c395d963bc1fffb61e77"
+          }
+        },
+        {
+          "client_id": "345864979805-e3fvmfodt70cec998le76cnparv341q5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6Xjpsy2lladsk6JaeepKLFtzHAsQZyKU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345864979805-e3fvmfodt70cec998le76cnparv341q5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

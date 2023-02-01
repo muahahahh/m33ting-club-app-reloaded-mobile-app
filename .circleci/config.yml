@@ -1,0 +1,62 @@
+version: 2.1
+
+references:
+  node_defaults: &node_defaults
+    working_directory: ~/project
+    docker:
+      - image: circleci/node:16.13
+
+jobs:
+  checkout_code:
+    <<: *node_defaults
+    steps:
+      - checkout
+      - persist_to_workspace:
+          root: ~/project
+          paths:
+            - .
+
+  install_modules:
+    <<: *node_defaults
+    steps:
+      - attach_workspace:
+          at: ~/project
+      - restore_cache:
+          key: yarn-packages-{{ checksum "yarn.lock" }}
+      - run: yarn install --frozen-lockfile --cache-folder ~/.cache/yarn
+      - save_cache:
+          key: yarn-packages-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
+      - persist_to_workspace:
+          root: ~/project
+          paths:
+            - node_modules
+
+  compile:
+    <<: *node_defaults
+    steps:
+      - attach_workspace:
+          at: ~/project
+      - run: yarn type-check
+
+  lint-check:
+    <<: *node_defaults
+    steps:
+      - attach_workspace:
+          at: ~/project
+      - run: yarn lint
+
+workflows:
+  compile_and_build:
+    jobs:
+      - checkout_code
+      - install_modules:
+          requires:
+            - checkout_code
+      - compile:
+          requires:
+            - install_modules
+      - lint-check:
+          requires:
+            - install_modules
