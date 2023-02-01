@@ -5,7 +5,8 @@ This app is designed to provide possibility to organize and participate in event
 
 Application
 
-!(https://github.com/muahahahh/m33ting-club-app-reloaded-mobile-app/blob/dev/meeting_screen.png?raw=true) !(https://github.com/muahahahh/m33ting-club-app-reloaded-mobile-app/blob/dev/screen-carousel.png?raw=true)
+![Meeting screen](https://github.com/muahahahh/m33ting-club-app-reloaded-mobile-app/blob/dev/meeting_screen.png?raw=true) 
+![Explore screen](https://github.com/muahahahh/m33ting-club-app-reloaded-mobile-app/blob/dev/screen-carousel.png?raw=true)
 
 
 ### Legal Disclaimer
